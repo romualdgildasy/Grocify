@@ -1,9 +1,18 @@
-import { Text, View, StyleSheet } from "react-native";
+import { Link } from "expo-router";
+import { Text, View, StyleSheet,Image } from "react-native";
 
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text>Edit src/app/index.tsx to edit this screen.</Text>
+      <Text>Edit src/app/index.tsx to edit this screen 123.</Text>
+       <Image  source = {require("@/assets/images/icon.png")} 
+         style={{
+            width: 200,
+            height: 200,
+            borderRadius:20,
+          }}
+       />
+        
     </View>
   );
 }
